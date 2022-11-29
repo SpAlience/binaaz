@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font: normal 14px Arial, sans-serif;
+}
+.card1{
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    width: 231px;
+    height: 255px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 1px 5px 0px rgba(0,0,0,0.3);
+}
+.card1:hover{
+    box-shadow: 30px 24px 68px -15px rgba(0,0,0,0.75);
+}
+.card1 img{
+    width: 100%;
+    height: 170px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.title{
+    margin-top: 3px;
+    margin-left: 5px;
+    color: black;
+}
+ .price{
+    font-size: 16px;
+    font-weight: 700;
+}
+.price span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.agency{
+    color: white;
+    background-color: #4264fd;
+    width: 50px;
+    height: 15px;
+    font-size: 11px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1px;
+    position: absolute;
+    left: 7px;
+    bottom: 90px;
+}
+.check{
+    background-color: rgb(21, 185, 21);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 2px 1px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.check p{
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 75px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 3px;
+    background-color: rgb(21, 185, 21);
+    visibility: hidden;
+}
+.check:hover p{
+    visibility: visible;  
+}
+.percent{
+    background-color:orange;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    padding: 2.5px 5.3px;
+    position: absolute;
+    left: 32px;
+    top: 7px;
+}
+.percent p{
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 80px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 3px;
+    background-color: orange;
+    visibility: hidden;
+}
+.percent:hover p{
+    visibility: visible;
+}
+.hummer{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    padding: 2.1px 3px;
+    position: absolute;
+    top: 7px;
+    left:58px;
+}
+.hummer p {
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 50px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 3px;
+    background-color: red;
+    visibility: hidden;
+}
+.hummer:hover p{
+    visibility: visible;
+}
+.diamond{
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 5px;
+    position: absolute;
+    right: 7px;
+    bottom: 90px;
+}
+.diamond .crown{
+    color: rgb(244, 188, 84);
+    font-size: 12px;
+}
+.diamond .gem{
+    color: red;
+    font-size: 12px;
+}
+.heart {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    color: white;
+    font-size: 17px;
+}
+.arrows .right {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #727272;
+    color: white;
+    position: absolute;
+    right: 7px;
+    top: 78px;
+    padding: 6px 6px;
+}
+.arrows .left {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #727272;
+    color: white;
+    position: absolute;
+    left: 7px;
+    top: 78px;
+    padding: 6px 6px;
+}
+.arrows{
+    visibility: hidden;
+}
+.card1:hover .arrows{
+    visibility:visible;
+}
+.card2{
+    top:-295px;
+    left: 262px;
+    border: 1px solid rgba(128, 128, 128, 0.582);
+    width: 231px;
+    height: 255px;
+    background-color: white;
+    margin: 40px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 1px 5px 0px rgba(0,0,0,0.3);
+}
+.card2:hover{
+    box-shadow: 30px 24px 68px -15px rgba(0,0,0,0.75);
+}
+.card2 img{
+    width: 100%;
+    height: 170px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.title{
+    margin-top: 3px;
+    margin-left: 5px;
+    color: black;
+}
+ .price{
+    font-size: 16px;
+    font-weight: 700;
+}
+.price span{
+    font-size: 16px;
+    font-weight: 700;
+}
+.agency{
+    color: white;
+    background-color: #4264fd;
+    width: 50px;
+    height: 15px;
+    font-size: 11px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1px;
+    position: absolute;
+    left: 7px;
+    bottom: 90px;
+}
+.check{
+    background-color: rgb(21, 185, 21);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 2px 1px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.check p{
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 75px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 3px;
+    background-color: rgb(21, 185, 21);
+    visibility: hidden;
+}
+.check:hover p{
+    visibility: visible;  
+}
+.percent{
+    background-color:orange;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    padding: 2.5px 5.3px;
+    position: absolute;
+    left: 32px;
+    top: 7px;
+}
+.percent p{
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 80px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 3px;
+    background-color: orange;
+    visibility: hidden;
+}
+.percent:hover p{
+    visibility: visible;
+}
+.hummer{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: white;
+    padding: 2.1px 3px;
+    position: absolute;
+    top: 7px;
+    left:58px;
+}
+.hummer p {
+    position: absolute;
+    left: 0px;
+    top: 18px;
+    width: 50px;
+    height: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    padding-top: 3px;
+    background-color: red;
+    visibility: hidden;
+}
+.hummer:hover p{
+    visibility: visible;
+}
+.diamond{
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 5px;
+    position: absolute;
+    right: 7px;
+    bottom: 90px;
+}
+.diamond .crown{
+    color: rgb(244, 188, 84);
+    font-size: 12px;
+}
+.diamond .gem{
+    color: red;
+    font-size: 12px;
+}
+.heart {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    color: white;
+    font-size: 17px;
+}
+.arrows .right {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #727272;
+    color: white;
+    position: absolute;
+    right: 7px;
+    top: 78px;
+    padding: 6px 6px;
+}
+.arrows .left {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #727272;
+    color: white;
+    position: absolute;
+    left: 7px;
+    top: 78px;
+    padding: 6px 6px;
+}
+.arrows{
+    visibility: hidden;
+}
+.card2:hover .arrows{
+    visibility:visible;
+}
